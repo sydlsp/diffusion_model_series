@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="ea46c67f-d335-41af-bb51-54e30d59a10e" name="登录">
+        <fileTransfer rootFolder="/vhome/shipu" accessType="SFTP" host="10.176.53.120" port="26565" sshConfigId="304321de-8dbc-44e8-aa65-780eec787e38" sshConfig="登录" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="6a1c88e8-2b8b-44b7-8e7a-11481773458f" name="数据">
+        <fileTransfer accessType="SFTP" host="10.176.53.120" port="26566" sshConfigId="17d4745e-6d4d-449c-8ff8-f5a0028defc9" sshConfig="数据" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
